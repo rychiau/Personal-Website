@@ -45,7 +45,6 @@ body {
 
 /* Carousel base class */
 .carousel {
-    margin-top: 51px;
     margin-bottom: 60px;
 }
 
@@ -56,6 +55,9 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 500px;
     background-color: #777;
+}
+
+.carousel-inner>.item>img {
+    min-width: 100%;
 }
