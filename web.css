@@ -14,7 +14,6 @@ body {
 
 /* CUSTOMIZE THE NAVBAR
   -------------------------------------------------- */
-
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
     position: absolute;
@@ -40,6 +39,7 @@ body {
 }
 
 
+
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
 
@@ -60,13 +60,4 @@ body {
 
 .carousel-inner>.item>img {
     min-width: 100%;
-}
-
-.container h1 {
-    position: absolute;
-    margin: 0;
-    color: white;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
